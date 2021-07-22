@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Delete"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/bold"
+        android:text="Delete Details"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/eprn"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/button1"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="PRN"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/eprn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/prn"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:visibility="gone"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="272dp"
+        android:background="@drawable/button1"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/black"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/button1"
+        android:ems="10"
+        android:visibility="gone"
+        android:fontFamily="@font/regular"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20dp"
+        android:paddingTop="8dp"
+        android:text=""
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/button1"
+        android:ems="10"
+        android:text=""
+        android:textSize="20dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:fontFamily="@font/regular"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/delete1"
+        android:layout_width="159dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/bold"
+        android:visibility="gone"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="337dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/bold"
+        android:text=""
+        android:textColor="@color/red"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

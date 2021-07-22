@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collegehourtracker">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CollegeHourTracker">
+        <activity android:name=".Success" android:noHistory="true" android:screenOrientation="portrait"  ></activity>
+
+
+
+        <activity android:name=".Search" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".AllRecords" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".Edit" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".Delete" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".ThisWeek" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".Yesterday" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".Today" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".Insert" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".Newpass" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".Admin_Home" android:screenOrientation="portrait" />
+        <activity android:name=".Forget" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".Login" android:noHistory="true" android:screenOrientation="portrait" />
+
+        <activity android:name=".Visitor" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity android:name=".SendAnimation" android:noHistory="true" android:screenOrientation="portrait" />
+        <activity
+            android:name=".Output"
+            android:screenOrientation="portrait" android:noHistory="true" />
+        <activity
+            android:name=".Scanner"
+            android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
