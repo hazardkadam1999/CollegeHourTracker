@@ -1,4 +1,4 @@
-# CollegeHourTrack
+# CollegeHourTracker
 Android app to manage Incoming and Outgoing People in Institutions
 
 This is a Project which was made by me and @ratikeshgaonkar
