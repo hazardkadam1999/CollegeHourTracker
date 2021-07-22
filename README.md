@@ -12,5 +12,3 @@ This is a Project which was made by me and @ratikeshgaonkar
 
 ## Below are Some Screenshots
 
-![Alt text](../../ss1.png?raw=true "Title")
-![GitHub Logo](./ss4.png)
